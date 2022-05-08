@@ -23,7 +23,7 @@ namespace FileStub.Templates
         XeniaTemplateSession currentXeniaSession;
         public Dictionary<string, XeniaTemplateSession> knownGamesDico = new Dictionary<string, XeniaTemplateSession>();
         string currentSelectedTemplate = null;
-        Process XeniaProcess = null;
+        //Process XeniaProcess = null;
         string gamepath = null;
         public string[] TemplateNames
         {
@@ -395,7 +395,7 @@ Load or drag and drop default.xex.
         public string fileInterfaceTargetId = null;
         public string gameName = "Autodetect";
         public string mainUncompressedToken = null;
-        internal FileMemoryInterface fileInterface;
+        //internal FileMemoryInterface fileInterface;
 
         public override string ToString()
         {
